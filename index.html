@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <pre id="typewriter">
+            <span class="comment-highlight">// SPDX-License-Identifier: MIT</span> 
+            <span class="purp-highlight">pragma solidity</span> ^<span class="teal-highlight">0.8.0</span>;
+
+            <span class="orange-highlight">contract </span>DaeLite<span class="orange-highlight"> is</span> Consultant, Developer, Analyst, Smoker {
+                
+                <span class="yellow-highlight">string </span><span class="red-highlight">private </span>_projects;
+                <span class="yellow-highlight">string</span>[<span class="teal-highlight">4</span>]<span class="red-highlight"> private </span>_links;
+
+                <span class="orange-highlight">function </span>getProjects()<span class="red-highlight"> public view override </span><span class="purp-highlight">returns </span>(<span class="yellow-highlight">string </span><span class="red-highlight">memory</span>) {
+                    <span class="purp-highlight">return </span><a href="/projects.html" target="_blank" class="button2">_projects;</a>
+                }
+
+                <span class="orange-highlight">function </span>setLinks()<span class="red-highlight"> public override </span>{
+                    _links = [<a href="https://github.com/0xdaelite" target="_blank" class="button">"Github"</a>, <a href="https://medium.com/@ash_ketchup" target="_blank" class="button">"Medium"</a>, <a href="https://twitter.com/BSP_Capital" target="_blank" class="button">"Twitter"</a>, <a href="https://discordapp.com/users/BSPCapital#0344" target="_blank" class="button">"Discord"</a>];
+                }
+
+                <span class="orange-highlight">function </span>aboutMe()<span class="red-highlight"> public view override </span><span class="purp-highlight">returns </span>(DaeLite) {
+                    <span class="purp-highlight">return </span><a href="/about.html" target="_blank" class="button1">this</a>;
+                }
+
+                <span class="orange-highlight">function </span>contactMe()<span class="red-highlight"> public override</span> {
+                    <span class="comment-highlight">//TBD</span>    
+                }
+            }
+        </pre>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

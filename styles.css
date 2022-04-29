@@ -1,0 +1,109 @@
+body {
+    background-color: #002b36;
+}
+
+.comment-highlight {
+    color: #586e75;
+  }
+
+.purp-highlight {
+    color: #6c71c4;
+  }
+
+  .teal-highlight {
+      color: #2aa198;
+  }
+  .orange-highlight {
+      color: #cb4b16;
+  }
+  .yellow-highlight {
+    color: #b58900;
+  }
+  .red-highlight {
+    color: #dc322f;
+  }
+  
+  #typewriter {
+    font-size: 1.90em;
+    margin: 0;
+    font-family: "Courier New";
+    color: azure;
+  }
+  #typewriter:after {
+    content: "|";
+    -webkit-animation: blink 500ms linear infinite alternate;
+            animation: blink 500ms linear infinite alternate;
+  }
+  
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .button {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: #214650;
+    color: #2aa198;
+  }
+  
+  .button:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+  }
+
+  .button1 {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: #214650;
+    color: #cb4b16;
+  }
+  
+  .button1:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+  }
+
+  .button2 {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: #214650;
+    color: azure;
+  }
+  
+  .button2:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+  }
+
+/*
+#wrapper {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#typewriter {
+    float: left;
+    position: relative;
+    left: -50%;
+    color: azure;
+}
+#one {
+    color: blue;
+}*/
